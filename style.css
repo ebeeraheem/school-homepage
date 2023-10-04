@@ -13,6 +13,7 @@ body {
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 2px;
+  position: relative;
 }
 
 h1,
@@ -54,6 +55,8 @@ aside {
 nav {
   float: left;
   width: 20%;
+  position: sticky;
+  top: 0;
 }
 
 footer {
@@ -77,3 +80,53 @@ footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+a {
+  outline: none;
+}
+a:link {
+  color: #a66;
+}
+
+a:visited {
+  color: #a36d6d;
+}
+
+a:focus {
+  color: #b35e5e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b35e5e;
+  text-decoration: none;
+}
+
+a:active {
+  color: #865454;
+}
+
+a[href^="https"] {
+  padding-right: 20px;
+  background-image: url(images/external-link.png);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: 16px 16px;
+}
+
+li {
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+nav > ul li {
+  list-style: none;
+  border: 1px solid #a66;
+  text-align: center;
+}
+
+nav a:-webkit-any-link {
+  text-decoration: none;
+  line-height: 3;
+  padding: 1em;
+}
