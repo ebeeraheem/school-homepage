@@ -26,12 +26,12 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
-  font-family: "manroperegular", impact;
+  font-family: "manroperegular", monospace;
 }
 
 h1,
 h2 {
-  font-family: "tex_gyre_scholabold", impact;
+  font-family: "tex_gyre_scholabold", monospace;
 }
 /* Layout */
 
